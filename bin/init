@@ -1,4 +1,10 @@
 #!/bin/bash
+
+[[ -d venv ]] || virtualenv venv
+source venv/bin/activate
+[[ -d node ]] || nodeenv --node=22.21.1 node
+source node/bin/activate
+
 hash mutagen-compose || exit 1
 
 basedir=$(readlink -f "$(dirname "$0")"/..)
