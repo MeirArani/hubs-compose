@@ -32,7 +32,7 @@ export PRIVATE_NETWORK_IP=$IP_ADDR
 composefile=$basedir/docker-compose.yml
 echo -e "${prefix}Initializing Reticulum$suffix" &&
 docker-compose -f "$composefile" build reticulum &&
-mutagen-compose -f "$composefile" run --rm reticulum sh -c 'trapped-mix do deps.get, deps.compile, ecto.create' &&
+mutagen-compose -f "$composefile" run --rm reticulum sh -c 'trapped-mix do deps.clean --all, deps.get, deps.compile, ecto.create' &&
 echo -e "${prefix}Initializing Dialog$suffix" &&
 docker-compose -f "$composefile" build dialog &&
 mutagen-compose -f "$composefile" run --rm dialog conditional-npm-ci &&
