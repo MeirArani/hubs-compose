@@ -84,25 +84,25 @@ cd ~/hubs-compose
 
 接続する時にセキュリティ警告があれば：
 
-![alt text](security1.png)
+![alt text](media/security1.png)
 
 ブラウザによって例外を追加してください。
 
-![alt text](security2.png)
+![alt text](media/security2.png)
 
 ### 管理アカウントにログイン
 
 右上のサインアップボタンを押して、メールアドレスを入力してください。
 
-![alt text](login1.png)
+![alt text](media/login1.png)
 
 管理アカウント・ネームは`icer@m.kyushu-u.ac.jp`です。
 
-![alt text](login-admin.png)
+![alt text](loginmedia/-admin.png)
 
 入力後は、下の画像のように見えるはずです。
 
-![alt text](login-admin-2.png)
+![alt text](login-media/admin-2.png)
 
 ### Docker Desktop に移動、`reticulum`のコンテナーにメール確認 URL を探す
 
@@ -110,11 +110,11 @@ cd ~/hubs-compose
 
 Docker Desktop をオープンして、「Containers」というボタンを押して、`reticulum`をクリックしてください。
 
-![alt text](docker1.png)
+![alt text](media/docker1.png)
 
 それで、`reticulum`のログが見えるはずです。
 
-![alt text](docker2.png)
+![alt text](media/docker2.png)
 
 ログの末尾ぐらいには、長い URL があるはずです。URL をクリックしたら、アカウントログインを確認できます。普通のサーバーで、それはユーザに送られたメールコンテンツです。
 
@@ -122,27 +122,27 @@ Docker Desktop をオープンして、「Containers」というボタンを押�
 
 Web ページをリフレッシュすると、**Admin**のボタンが画面の左上に見えるはずです。
 
-![alt text](login-admin4.png)
+![alt text](login-media/admin4.png)
 
 ボタンを押すと、管理人の設定ページに移動して、グローバル設定を編集できます。
 
-![alt text](settings.png)
+![alt text](media/settings.png)
 
 ### `https://hubs.local:4000/spoke`で Spoke をアクセス
 
 `https://hubs.local:4000/spoke`の URL で Spoke にもアクセスできます。hubs の左上の「Scene Editor」で書かれたボタンを押すと、spoke に移動されます。
 
-![alt text](spoke.png)
+![alt textmedia/](spoke.png)
 
 #### CORS 問題
 
 新しいプロジェクトをロードしてみると、長い時間をかかるでしょう。そうすると、以下の写真のようなイメージを見るはずです。
 
-![alt text](loading.png)
+![alt text](media/loading.png)
 
 後でエラーも現れます。
 
-![alt text](cors-error.png)
+![alt text](corsmedia/-error.png)
 
 現在の CORS 設定のせいでエラーが出ました。サーバーは外部ネットワークから 3D モデル等をロードしようとしたが、今の所できません。
 
@@ -152,7 +152,7 @@ Web ページをリフレッシュすると、**Admin**のボタンが画面の�
 
 新しい機能が含まれたことも確認できます。
 
-![alt text](custom.png)
+![alt text](media/custom.png)
 
 さらに深くテスト・開発は必要ですが、現在のところ｀ Global Mic`の機能性が確認されました。
 
@@ -162,9 +162,9 @@ Web ページをリフレッシュすると、**Admin**のボタンが画面の�
 
 普通の方法でシーンを Hubs に発行できます。
 
-![alt text](publish1.png)
+![alt text](media/publish1.png)
 
-![alt text](publish2.png)
+![alt text](media/publish2.png)
 
 ## サーバーの起動・停止
 
@@ -230,26 +230,26 @@ cd hubs-compose
 
 接続する時にセキュリティ警告があれば：
 
-![alt text](security1.png)
+![alt text](media/security1.png)
 
 ブラウザによって例外を追加してください。
 
-![alt text](security2.png)
+![alt text](media/security2.png)
 
 ### アカウント制作
 
 右上のサインアップボタンを押して、メールアドレスを入力してください。
 
-![alt text](login1.png)
+![alt text](media/login1.png)
 
 サーバーが開発中ですので、偽のメールアドレスでも使えます。
 現在、メールを送らないので、アドレスの有効性が確認されません。
 
-![alt text](login2.png)
+![alt text](media/login2.png)
 
 入力後は、下の画像のように見えるはずです。
 
-![alt text](login3.png)
+![alt text](media/login3.png)
 
 ### Docker Desktop に移動、`reticulum`のコンテナーにメール確認 URL を探す
 
@@ -257,11 +257,11 @@ cd hubs-compose
 
 Docker Desktop をオープンして、「Containers」というボタンを押して、`reticulum`をクリックしてください。
 
-![alt text](docker1.png)
+![alt text](media/docker1.png)
 
 それで、`reticulum`のログが見えるはずです。
 
-![alt text](docker2.png)
+![alt text](media/docker2.png)
 
 ログの末尾ぐらいには、長い URL があるはずです。URL をクリックしたら、アカウントを確認できます。普通のサーバーで、それはユーザに送られたメールコンテンツです。
 
@@ -271,7 +271,7 @@ Docker Desktop をオープンして、「Containers」というボタンを押�
 
 ログイン状態は画面の右上に表示されます。
 
-![alt text](login4.png)
+![alt text](media/login4.png)
 
 ### アカウントを昇格、ルーム権限を許可
 
@@ -323,27 +323,27 @@ BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
 
 Web ページをリフレッシュすると、**Admin**のボタンが画面の左上に見えるはずです。
 
-![alt text](admin.png)
+![alt textmedia/](admin.png)
 
 ボタンを押すと、管理人の設定ページに移動して、グローバル設定を編集できます。
 
-![alt text](settings.png)
+![alt text](media/settings.png)
 
 ### `https://hubs.local:4000/spoke`で Spoke をアクセス
 
 `https://hubs.local:4000/spoke`の URL で Spoke にもアクセスできます。hubs の左上の「Scene Editor」で書かれたボタンを押すと、spoke に移動されます。
 
-![alt text](spoke.png)
+![alt textmedia/](spoke.png)
 
 #### CORS 問題
 
 新しいプロジェクトをロードしてみると、長い時間をかかるでしょう。そうすると、以下の写真のようなイメージを見るはずです。
 
-![alt text](loading.png)
+![alt text](media/loading.png)
 
 後でエラーも現れます。
 
-![alt text](cors-error.png)
+![alt text](corsmedia/-error.png)
 
 現在の CORS 設定のせいでエラーが出ました。サーバーは外部ネットワークから 3D モデル等をロードしようとしたが、今の所できません。
 
@@ -353,7 +353,7 @@ Web ページをリフレッシュすると、**Admin**のボタンが画面の�
 
 新しい機能が含まれたことも確認できます。
 
-![alt text](custom.png)
+![alt text](media/custom.png)
 
 さらに深くテスト・開発は必要ですが、現在のところ｀ Global Mic`の機能性が確認されました。
 
@@ -363,9 +363,9 @@ Web ページをリフレッシュすると、**Admin**のボタンが画面の�
 
 普通の方法でシーンを Hubs に発行できます。
 
-![alt text](publish1.png)
+![alt text](media/publish1.png)
 
-![alt text](publish2.png)
+![alt text](media/publish2.png)
 
 ## サーバーの起動・停止
 
@@ -480,25 +480,25 @@ If you are unable to connect, make sure the containers are actually running! The
 
 If you are greeted with a security warning screen:
 
-![alt text](security1.png)
+![alt text](media/security1.png)
 
 Add the site as an exception according to your browser:
 
-![alt text](security2.png)
+![alt text](media/security2.png)
 
 ### Create an account
 
 Click the Sign up button in the top-right corner to login to the admin account.
 
-![alt text](login1.png)
+![alt text](media/login1.png)
 
 The admin account email is `icer@m.kyushu-u.ac.jp`. Input this email and press "next."
 
-![alt text](login-admin.png)
+![alt text](loginmedia/-admin.png)
 
 You should see a screen like this after inputting an address:
 
-![alt text](login-admin2.png)
+![alt text](login-media/admin2.png)
 
 ### Go to Docker Compose and check for email registration URL in the `reticulum` container
 
@@ -506,11 +506,11 @@ The server is currently in development mode, so it does not actually send or ver
 
 Open Docker Desktop, head to the _Containers_ view, and open the `reticulum` container:
 
-![alt text](docker1.png)
+![alt text](media/docker1.png)
 
 You should see reticulum's logs:
 
-![alt text](docker2.png)
+![alt text](media/docker2.png)
 
 There should be a long URL visible near the bottom of the log. This is the verification URL that _would_ be sent to the user if the server was running in production mode.
 
@@ -522,27 +522,27 @@ Your account information should be verified after a few seconds. Your login stat
 
 After refreshing the hubs page, you should notice the **Admin** button near the top left of the screen:
 
-![alt text](login-admin4.png)
+![alt text](login-media/admin4.png)
 
 Clicking this will take you to the administrator settings page, where you may edit global hubs settings:
 
-![alt text](settings.png)
+![alt text](media/settings.png)
 
 ### Access spoke @ `https://hubs.local:4000/spoke`
 
 Spoke may be accessed at `https://hubs.local:4000/spoke`. You can also click the **Scene Editor** button on the top left of the hubs screen to reach Spoke.
 
-![alt text](spoke.png)
+![alt textmedia/](spoke.png)
 
 #### CORS issues
 
 Loading a new project will likely take a long time. You should see a loading notice like this for about 60 seconds:
 
-![alt text](loading.png)
+![alt text](media/loading.png)
 
 Afterwards, an error will appear:
 
-![alt text](cors-error.png)
+![alt text](corsmedia/-error.png)
 
 This is caused by spoke's attempt to load data (3D models) not located on the server.
 
@@ -552,21 +552,21 @@ A fix for these issues is currently being developed, and should be finished soon
 
 You should notice my custom spoke elements are selectable:
 
-![alt text](custom.png)
+![alt text](media/custom.png)
 
 Further testing / development is needed, but I have done some testing to confirm the `Global Mic` element works in hubs.
 
 Beyond this, spoke functionality should work as usual:
 
-![alt text](spoke-work.png)
+![alt text](media/spoke-work.png)
 
 ### Publish Scene
 
 You can publish a scene to hubs using the normal methods:
 
-![alt text](publish1.png)
+![alt text](media/publish1.png)
 
-![alt text](publish2.png)
+![alt text](media/publish2.png)
 
 ## Shutting down/starting up the server
 
@@ -630,25 +630,25 @@ If you are unable to connect, make sure the containers are actually running! The
 
 If you are greeted with a security warning screen:
 
-![alt text](security1.png)
+![alt text](media/security1.png)
 
 Add the site as an exception according to your browser:
 
-![alt text](security2.png)
+![alt text](media/security2.png)
 
 ### Create an account
 
 Click the Sign up button in the top-right corner to create an account:
 
-![alt text](login1.png)
+![alt text](media/login1.png)
 
 The email you input does not have to be valid—since the server is offline, it does not actually send mail or verify addresses.
 
-![alt text](login2.png)
+![alt text](media/login2.png)
 
 You should see a screen like this after inputting an address:
 
-![alt text](login3.png)
+![alt text](media/login3.png)
 
 ### Go to Docker Compose and check for email registration URL in the `reticulum` container
 
@@ -656,11 +656,11 @@ The server is currently in development mode, so it does not actually send or ver
 
 Open Docker Desktop, head to the _Containers_ view, and open the `reticulum` container:
 
-![alt text](docker1.png)
+![alt text](media/docker1.png)
 
 You should see reticulum's logs:
 
-![alt text](docker2.png)
+![alt text](media/docker2.png)
 
 There should be a long URL visible near the bottom of the log. This is the verification URL that _would_ be sent to the user if the server was running in production mode.
 
@@ -670,7 +670,7 @@ Click on the URL to verify your account.
 
 Your account information should be verified after a few seconds. Your login status should be shown in the top right corner like so:
 
-![alt text](login4.png)
+![alt text](media/login4.png)
 
 ### Promote verified account to administrator and enable room permissions
 
@@ -722,27 +722,27 @@ Press `CTRL+C` one more time to confirm your decision and exit the console.
 
 After refreshing the hubs page, you should notice the **Admin** button near the top left of the screen:
 
-![alt text](admin.png)
+![alt textmedia/](admin.png)
 
 Clicking this will take you to the administrator settings page, where you may edit global hubs settings:
 
-![alt text](settings.png)
+![alt text](media/settings.png)
 
 ### Access spoke @ `https://hubs.local:4000/spoke`
 
 Spoke may be accessed at `https://hubs.local:4000/spoke`. You can also click the **Scene Editor** button on the top left of the hubs screen to reach Spoke.
 
-![alt text](spoke.png)
+![alt textmedia/](spoke.png)
 
 #### CORS issues
 
 Loading a new project will likely take a long time. You should see a loading notice like this for about 60 seconds:
 
-![alt text](loading.png)
+![alt text](media/loading.png)
 
 Afterwards, an error will appear:
 
-![alt text](cors-error.png)
+![alt text](corsmedia/-error.png)
 
 This is caused by spoke's attempt to load data (3D models) not located on the server.
 
@@ -752,21 +752,21 @@ A fix for these issues is currently being developed, and should be finished soon
 
 You should notice my custom spoke elements are selectable:
 
-![alt text](custom.png)
+![alt text](media/custom.png)
 
 Further testing / development is needed, but I have done some testing to confirm the `Global Mic` element works in hubs.
 
 Beyond this, spoke functionality should work as usual:
 
-![alt text](spoke-work.png)
+![alt text](media/spoke-work.png)
 
 ### Publish Scene
 
 You can publish a scene to hubs using the normal methods:
 
-![alt text](publish1.png)
+![alt text](media/publish1.png)
 
-![alt text](publish2.png)
+![alt text](media/publish2.png)
 
 ## Shutting down/starting up the server
 
