@@ -142,7 +142,7 @@ Web ページをリフレッシュすると、**Admin**のボタンが画面の�
 
 後でエラーも現れます。
 
-![alt text](corsmedia/-error.png)
+![alt text](media/cors-error.png)
 
 現在の CORS 設定のせいでエラーが出ました。サーバーは外部ネットワークから 3D モデル等をロードしようとしたが、今の所できません。
 
@@ -343,7 +343,7 @@ Web ページをリフレッシュすると、**Admin**のボタンが画面の�
 
 後でエラーも現れます。
 
-![alt text](corsmedia/-error.png)
+![alt text](media/cors-error.png)
 
 現在の CORS 設定のせいでエラーが出ました。サーバーは外部ネットワークから 3D モデル等をロードしようとしたが、今の所できません。
 
