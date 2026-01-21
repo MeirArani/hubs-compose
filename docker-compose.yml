@@ -82,6 +82,7 @@ services:
       context: .
       dockerfile: dockerfiles/postgrest.Dockerfile
   reticulum:
+    #image: perfumev/reticulum:latest
     build:
       context: ./services/reticulum
       dockerfile: TurkeyDockerfile
